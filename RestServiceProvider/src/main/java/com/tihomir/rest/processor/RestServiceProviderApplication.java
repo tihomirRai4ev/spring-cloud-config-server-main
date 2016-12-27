@@ -1,4 +1,4 @@
-package com.vmware.rest;
+package com.tihomir.rest.processor;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
