@@ -37,7 +37,7 @@ public class RestConsumerService {
 	 */
 	ScheduledFuture<Object> scheduledFuture = scheduledExecutorService.schedule(new Callable<Object>() {
 		public Object call() throws Exception {
-			System.out.println("Executed!");
+			//Ad impl here
 			return "Called!";
 		}
 	}, 5, TimeUnit.SECONDS);
